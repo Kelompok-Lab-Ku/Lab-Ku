@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517284951647",
+    "project_id": "lab-masters-cf24d",
+    "storage_bucket": "lab-masters-cf24d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517284951647:android:7c6305cb02802e02d04dea",
+        "android_client_info": {
+          "package_name": "com.example.labmasters"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_gg9Z8n_evUaqO7PLEi9DKtlBw9CLaGk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

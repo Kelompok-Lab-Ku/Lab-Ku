@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/up"
+    tools:context=".authentication.RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="Register to Continue"
+        android:textColor="#373434"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="390dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginLeft="15dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="Welcome To App Admin!"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/em_regis"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Masukkan Email"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <EditText
+        android:id="@+id/pw_regis"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Masukkan Password Baru"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/em_regis" />
+
+    <Button
+        android:id="@+id/bt_regis"
+        android:layout_width="387dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#3697DB"
+        android:text="REGISTER NOW"
+        android:textColor="@color/white"
+        app:cornerRadius="10dp"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pw_regis" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

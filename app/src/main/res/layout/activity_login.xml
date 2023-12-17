@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/up"
+    tools:context=".authentication.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="358dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginLeft="15dp"
+        android:gravity="left"
+        android:text="Welcome Back Admin!"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="25dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="Sign in to Continue"
+        android:textColor="#373434"
+        android:textSize="19sp"
+        android:textStyle="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        />
+
+    <EditText
+        android:id="@+id/em_login"
+        android:layout_width="387dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Masukkan Email"
+        android:inputType="text"
+        android:padding="8dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/pw_login"
+        android:layout_width="387dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="8dp"
+        android:ems="10"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/em_login" />
+
+
+    <Button
+        android:id="@+id/bt_log"
+        android:layout_width="387dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="84dp"
+        android:backgroundTint="#3697DB"
+        android:text="LOGIN NOW"
+        android:textColor="@color/white"
+        app:cornerRadius="12dp"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pw_login" />
+
+    <TextView
+        android:id="@+id/btforgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_log"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
