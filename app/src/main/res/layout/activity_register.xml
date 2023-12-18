@@ -40,7 +40,7 @@
         android:gravity="left"
         android:text="Welcome To App Admin!"
         android:textColor="@color/black"
-        android:textSize="35sp"
+        android:textSize="33sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
